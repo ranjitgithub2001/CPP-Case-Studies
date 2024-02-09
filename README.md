@@ -4,8 +4,9 @@ This repository contains a collection of C++ projects that I've worked on. Each 
 
 ## 📋 Project List
 
-1. **Project 1: Book Management System**
-2. **Project 2: Restaurant Billing System**
-3. **Project 3: Basic Bank Accounts**
-4. **Project 4: Tik Tak Toe Game**
-5. **Project 2: Toll Naka System**
+1. **Project 1: Book Management System 📚**
+2. **Project 2: Restaurant Billing System 🍽️**
+3. **Project 3: Basic Bank Accounts 💰**
+4. **Project 4: Tik Tak Toe Game ❌⭕**
+5. **Project 5: Toll Naka System 🚗💳**
+6. **Project 6: Student Management System 🎓**
