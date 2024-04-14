@@ -1,3 +1,39 @@
+/*
+ * Banking System
+ * 
+ * This program is a simple Banking System implemented in C++.
+ * It allows users to:
+ * 1. Create Savings or Current accounts.
+ * 2. Deposit money into accounts.
+ * 3. Withdraw money from accounts.
+ * 4. Check account balance.
+ * 5. Display account details.
+ * 
+ * The program uses Object-Oriented Programming (OOP) concepts and inheritance.
+ * There are two types of accounts:
+ * - Saving Account: Requires a minimum deposit of 500.00.
+ * - Current Account: Requires a minimum deposit of 2000.00.
+ * 
+ * Features:
+ * - Create Account: Users can create either a Saving or Current account.
+ * - Deposit Balance: Users can deposit money into their accounts.
+ * - Withdraw Balance: Users can withdraw money from their accounts based on account type and balance.
+ * - Check Balance: Users can check their account balance.
+ * - Account Details: Displays account details including account type, account number, holder name, and balance.
+ * 
+ * Classes:
+ * - Account: Base class with common properties and methods for both Saving and Current accounts.
+ * - Saving: Derived class from Account for Saving accounts with a minimum balance limit.
+ * - Current: Derived class from Account for Current accounts with an overdraft limit.
+ * 
+ * Limitations:
+ * - Saving accounts require a minimum deposit of 500.00.
+ * - Current accounts require a minimum deposit of 2000.00.
+ * - The program can handle up to 20 accounts.
+ * 
+ * Author: Ranjit Kale
+ */
+
 #include <iostream>
 #include <string.h>
 using namespace std;
