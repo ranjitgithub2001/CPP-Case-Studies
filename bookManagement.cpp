@@ -1,3 +1,23 @@
+/*
+    This program manages a library of books with functionalities like:
+    1. Storing predefined book data.
+    2. Displaying all books.
+    3. Searching books by ID or name.
+    4. Updating book price or rating.
+    5. Deleting a book.
+    6. Finding the book with maximum price or rating.
+    7. Listing top 3 books based on price or rating.
+    8. Adding a new book with user input.
+    
+    The Book class has attributes like ID, book name, author, price, and rating. 
+    It provides methods to set and get these attributes, store predefined book data, 
+    and perform various operations on the book library.
+    
+    The main function presents a menu-driven interface to interact with the library 
+    and uses dynamic memory allocation to manage the book array.
+    
+    Author: Ranjit Kale
+*/
 using namespace std;
 #include<string.h>
 #include<iostream>
