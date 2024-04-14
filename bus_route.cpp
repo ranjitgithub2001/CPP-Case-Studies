@@ -1,3 +1,25 @@
+/*
+ * City Travel Fare Calculator
+ * 
+ * This program calculates the total travel distance and fare between two cities.
+ * 
+ * Features:
+ * - The program supports calculating the total distance and fare based on the selected start and end points.
+ * - It uses a predefined list of city names and their corresponding distances to calculate the total distance.
+ * - The fare rate is a constant value of 25 units per km.
+ * 
+ * How to Use:
+ * - Run the program to see the list of city names and their respective numbers.
+ * - Enter the start and end points by selecting the corresponding numbers.
+ * - The program will calculate and display the total distance and travel fare.
+ * 
+ * Note:
+ * - The distance between cities is predefined and stored in the 'distances' array.
+ * - The fare rate is fixed at 25 units per km.
+ * 
+ * Author: Ranjit Kale 
+ */
+
 #include <iostream>
 using namespace std;
 
