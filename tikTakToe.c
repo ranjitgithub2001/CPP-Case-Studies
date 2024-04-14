@@ -1,3 +1,27 @@
+/*
+ * Tic-Tac-Toe Game
+ * 
+ * This program is a simple implementation of the classic Tic-Tac-Toe game in C.
+ * 
+ * Features:
+ * - Two players take turns to mark their chosen symbol ('X' or 'O') on a 3x3 board.
+ * - The game ends when a player achieves a winning combination or the board is full (draw).
+ * 
+ * Game Rules:
+ * - Players choose between 'X' and 'O' as their mark.
+ * - Players take turns to place their mark on an empty spot on the board.
+ * - The first player to get 3 of their marks in a row (horizontally, vertically, or diagonally) wins.
+ * - If all 9 spots are filled and no player has won, it's a draw.
+ * 
+ * How to Play:
+ * - Players enter their chosen symbol ('X' or 'O') at the beginning of the game.
+ * - During their turn, players choose an empty spot on the board by entering a position number (1-9).
+ * - The game validates the input and displays the updated board after each move.
+ * - The game ends when a player wins or it's a draw.
+ * 
+ * Author: Ranjit Kale 
+ */
+
 #include <stdio.h>
 int checkWin(char*,char);
 void displayBoard(char*);
