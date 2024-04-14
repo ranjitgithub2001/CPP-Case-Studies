@@ -1,3 +1,31 @@
+/*
+    Student Management System
+    
+    This program manages student records and provides functionalities like:
+    1. Admission of Engineering and Medical students.
+    2. Displaying individual or all student information.
+    3. Calculating grades for students based on their marks.
+    4. Removing a student from the system.
+    
+    There are two classes:
+    - `Student`: Base class with common attributes and methods.
+    - `EnggStudent` and `MedStudent`: Derived classes for Engineering and Medical students, respectively.
+    
+    The `Student` class has attributes like ID, name, age, and marks, with methods to set and get these attributes, 
+    as well as to display student information and calculate grades.
+    
+    The derived classes (`EnggStudent` and `MedStudent`) inherit from `Student` and add additional attributes 
+    like branch and internal marks (for Engineering students) and specialization and internship marks (for Medical students).
+    
+    The main function provides a menu-driven interface to interact with the student records:
+    - Admission of students.
+    - Displaying student details.
+    - Calculating grades.
+    - Removing a student.
+    
+    Author: Ranjit Kale
+*/
+
 using namespace std;
 #include<iostream>
 #include<string.h>
