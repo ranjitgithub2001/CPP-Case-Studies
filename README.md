@@ -22,4 +22,8 @@ Welcome to my CPP Projects Repository! 🎉 Here, you'll find a captivating coll
  **6. Student Management System 🎓**
  [Engage with the Student Management System](https://github.com/ranjitgithub2001/CPP-Case-Studies/blob/main/endModule2.cpp)
 
+ **7. City Travel Fare Calculator 🌆🚗**
+ [Explore the City Travel Fare Calculator](https://github.com/ranjitgithub2001/CPP-Case-Studies/blob/main/bus_route.cpp)
+ 
+
 Feel the excitement, explore the projects, and enjoy the journey through the realms of C++ mastery! 🚀✨
