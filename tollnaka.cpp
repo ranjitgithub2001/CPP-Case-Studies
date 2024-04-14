@@ -1,3 +1,27 @@
+/*
+ * Toll Calculation System
+ * 
+ * This program calculates the toll fee for different types of vehicles based on the number of persons.
+ * 
+ * Features:
+ * - The program supports calculating toll for Two Wheelers, Three Wheelers, Four Wheelers, and Heavy Wheelers.
+ * - The toll is calculated based on a base rate plus an additional charge per extra person.
+ * 
+ * Vehicle Classes:
+ * 1. TwoWheeler: Base toll is 20, with an additional charge of 10 for each person beyond 2.
+ * 2. ThreeWheeler: Base toll is 30, with an additional charge of 20 for each person beyond 3.
+ * 3. FourWheeler: Base toll is 40, with an additional charge of 40 for each person beyond 4.
+ * 4. HeavyWheeler: Base toll is 60, with an additional charge of 100 for each person beyond 6.
+ * 
+ * How to Use:
+ * - Run the program and select the type of vehicle.
+ * - Enter the number of persons in the vehicle.
+ * - The program will calculate and display the toll amount.
+ * - The user can continue to calculate tolls for different vehicles until they choose to exit.
+ * 
+ * Author: Ranjit Kale 
+ */
+
 #include<iostream>
 using namespace std;
 class Vehicle{
